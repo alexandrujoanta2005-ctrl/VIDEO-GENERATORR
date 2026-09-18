@@ -1,10 +1,11 @@
-START AICI
+CINEMATIC FUN v3 MAX FPS
 
 1. Dezarhivează ZIP-ul.
-2. Pune toate fișierele din folder direct în GitHub.
-3. GitHub -> Settings -> Pages.
+2. Pune TOATE fișierele în GitHub.
+3. Settings -> Pages.
 4. Deploy from a branch.
 5. main + /(root).
 6. Save.
-7. Deschide linkul pe iPhone în Safari.
-8. Share -> Add to Home Screen.
+7. Pe iPhone: Safari -> Share -> Add to Home Screen.
+
+FPS: 24 / 30 / 48 / 50 / 60 / 90 / 120 / 144 / 165 / 240.

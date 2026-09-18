@@ -213,6 +213,10 @@ $("interpretBtn").addEventListener("click", interpretPrompt);
   $(id).addEventListener("change", ()=> {
     cfg = parsePrompt($("prompt").value);
     showCfg(cfg);
+    if(id === "fps" && Number($("fps").value) > 120){
+      $("status").textContent = `${$("fps").value} FPS selectat. Browserul va încerca această valoare, dar iPhone/Safari poate limita FPS-ul real.`;
+      $("status").className = "status warn";
+    }
     if(imgReady) drawFrame(0);
   });
 });
@@ -243,6 +247,11 @@ async function exportVideo(){
     $("status").textContent = "Safari-ul nu poate exporta direct aici. Folosește Screen Recording pe iPhone.";
     $("status").className = "status warn";
     return;
+  }
+
+  if(cfg.fps > 120){
+    $("status").textContent = `Încerc export la ${cfg.fps} FPS. Pe iPhone, Safari poate reduce automat FPS-ul real.`;
+    $("status").className = "status warn";
   }
 
   const stream = canvas.captureStream(cfg.fps);

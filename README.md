@@ -1,41 +1,31 @@
-# Cinematic Fun v2 — GitHub Pages + iPhone
+# Cinematic Fun v3 — MAX FPS
 
-Versiune mai modernă și mai distractivă.
+Versiune gratuită pentru GitHub Pages + iPhone.
 
-## Noutăți
-- design nou, mai modern
-- preset-uri rapide pentru robot
-- vibe selector
-- 7 opțiuni FPS:
-  - 24
-  - 30
-  - 48
-  - 50
-  - 60
-  - 90
-  - 120
+## FPS disponibile
+- 24 FPS
+- 30 FPS
+- 48 FPS
+- 50 FPS
+- 60 FPS
+- 90 FPS
+- 120 FPS
+- 144 FPS
+- 165 FPS
+- 240 FPS MAX
 
-## Cum o pui pe GitHub
+IMPORTANT:
+Aplicația poate cere browserului până la 240 FPS, dar FPS-ul real depinde de iPhone, Safari, codec și performanță.
+Pe multe iPhone-uri, 60 sau 120 FPS sunt valori mult mai realiste pentru redare/export.
+
+## Instalare GitHub Pages
 1. Dezarhivează ZIP-ul.
-2. Intră în folderul `Cinematic-Free-PWA-GitHub-v2`.
-3. Pune TOATE fișierele direct în rădăcina repository-ului GitHub.
-4. Commit changes.
-5. În GitHub intră la:
-   Settings -> Pages
-6. La Build and deployment:
-   Deploy from a branch
-7. Branch:
-   main
-8. Folder:
-   /(root)
-9. Save
+2. Pune toate fișierele direct în repository.
+3. GitHub -> Settings -> Pages.
+4. Deploy from a branch.
+5. main + /(root).
+6. Save.
+7. Deschide linkul pe iPhone în Safari.
+8. Share -> Add to Home Screen.
 
-## Pe iPhone
-1. Deschide linkul GitHub Pages în Safari.
-2. Share
-3. Add to Home Screen
-
-## Important
-Este 100% gratuită și locală.
-Nu este AI generativ ca Kling/CapCut AI.
-Dacă Safari nu poate exporta direct video, folosește Screen Recording.
+Nu necesită API, Render, card sau abonament.
