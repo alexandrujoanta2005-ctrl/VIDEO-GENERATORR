@@ -1,19 +1,10 @@
 START AICI
 
 1. Dezarhivează ZIP-ul.
-2. Deschide folderul Cinematic-Free-PWA-GitHub.
-3. Încarcă TOATE fișierele direct în repository-ul GitHub.
-4. GitHub -> Settings -> Pages.
-5. Deploy from a branch.
-6. main + /(root).
-7. Save.
-8. Așteaptă linkul GitHub Pages.
-9. Deschide linkul în Safari pe iPhone.
-10. Share -> Add to Home Screen.
-
-NU ai nevoie de:
-- FAL_KEY
-- Render
-- card
-- abonament
-- server
+2. Pune toate fișierele din folder direct în GitHub.
+3. GitHub -> Settings -> Pages.
+4. Deploy from a branch.
+5. main + /(root).
+6. Save.
+7. Deschide linkul pe iPhone în Safari.
+8. Share -> Add to Home Screen.

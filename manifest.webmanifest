@@ -1,11 +1,11 @@
 {
-  "name": "Cinematic Free",
-  "short_name": "Cinematic",
+  "name": "Cinematic Fun",
+  "short_name": "Cinematic Fun",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#090b10",
-  "theme_color": "#0b0d12",
+  "background_color": "#0b1020",
+  "theme_color": "#0b1020",
   "icons": [
     {
       "src": "./icons/icon-192.png",
